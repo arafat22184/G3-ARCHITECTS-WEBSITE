@@ -81,6 +81,8 @@ section {
   align-items: center;
   max-width: 1440px;
   margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .nav-links {
