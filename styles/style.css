@@ -24,6 +24,11 @@
   --c-bgheader: rgba(255, 144, 14, 0.1);
 }
 
+::selection {
+  background: var(--c-btn);
+  color: var(--c-btnfont);
+}
+
 .title {
   font-size: 2.8125rem;
   font-weight: 700;
@@ -176,7 +181,7 @@ section {
 }
 
 .experiences-title {
-  border-left: 1px solid var(--c-btn);
+  border-left: 5px solid var(--c-btn);
   padding-left: 21px;
 }
 
