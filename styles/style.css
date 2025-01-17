@@ -54,6 +54,14 @@
   border-radius: 0.5rem;
 }
 
+.btn:hover {
+  background-color: var(--c-bgheader);
+  border: 2px solid var(--c-btn);
+  cursor: pointer;
+  color: var(--c-btn);
+  transition: 0.5s;
+}
+
 .image {
   width: 100%;
   height: 100%;
@@ -95,6 +103,12 @@ section {
   font-size: 1.125rem;
   font-weight: 500;
   margin-right: 75px;
+}
+
+.nav-link > a:hover {
+  border-bottom: 5px solid var(--c-btn);
+  padding-bottom: 5px;
+  transition: 0.5s;
 }
 
 /* BANNER STYLES */
@@ -192,6 +206,11 @@ section {
   margin-top: -120px;
 }
 
+.experience-btn:hover {
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+
 #btn-10year {
   font-size: 4.0625rem;
   font-weight: 700;
@@ -229,6 +248,12 @@ section {
   justify-content: center;
 }
 
+.fact:hover {
+  background-color: var(--c-bgheader);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
 .fact-title {
   margin-top: 10px;
   margin-bottom: 5px;
@@ -257,7 +282,16 @@ section {
 
 .sponsors-img-container {
   justify-content: space-between;
+}
+
+.sponsors-img-container > a {
   filter: grayscale(100%);
+}
+
+.sponsors-img-container > a:hover {
+  filter: none;
+  transform: scale(1.2);
+  transition: 0.5s;
 }
 
 /* FOOTER STYLES */
